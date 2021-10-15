@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FIT5046Ass3</string>
+    <string name = "mapbox_access_token">pk.eyJ1IjoiZG9yZWVuMDEzMyIsImEiOiJja29xd3drMnAwZXI4MnVrZWsyZGk0b256In0.9pesIrEWjo9XnhCy4Ni4Qg</string>
+</resources>

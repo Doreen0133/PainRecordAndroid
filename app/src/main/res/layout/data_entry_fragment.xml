@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Pain Data Entry"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/titlelevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Pain Intensity level:"
+        android:textSize="20sp" />
+
+    <Spinner
+        android:id="@+id/levelSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/titlelocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Pain Location:"
+        android:textSize="20sp" />
+
+
+    <RadioGroup
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:checked="true"
+            android:text="Back" />
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Neck" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Head" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Knees" />
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Hips" />
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Abdomen" />
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Elbows" />
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Shoulders" />
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Shins" />
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Jaw" />
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="Facial" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/titlemood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Mood:"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/mood"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/mood1"
+            android:drawableBottom="@drawable/emoji1"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:text="very low"/>
+        <RadioButton
+            android:id="@+id/mood2"
+            android:drawableBottom="@drawable/emoji2"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:checked="false"
+            android:text="low"/>
+        <RadioButton
+            android:id="@+id/mood3"
+            android:drawableBottom="@drawable/emoji3"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:checked="true"
+            android:text="avrage"/>
+        <RadioButton
+            android:id="@+id/mood4"
+            android:drawableBottom="@drawable/emoji4"
+            android:layout_width="65dp"
+            android:layout_height="70dp"
+            android:checked="false"
+            android:text="high"/>
+        <RadioButton
+            android:id="@+id/mood5"
+            android:drawableBottom="@drawable/emoji5"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:checked="false"
+            android:layout_marginLeft="20dp"
+            android:text="very high"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/titlgoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Today's goal:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:hint="10000"
+        android:inputType="number"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/titltoday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Today's steps:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter today's step"
+        android:inputType="number"
+        android:textSize="18sp" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp">
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Save" />
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Edit" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

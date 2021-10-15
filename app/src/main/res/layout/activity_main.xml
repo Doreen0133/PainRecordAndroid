@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    
+    <TextView
+        android:id="@+id/brandname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pain Record"
+        android:layout_marginLeft="50sp"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/branddesc"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:text="Record your pain level"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="Sign In"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/button1"
+        android:drawablePadding="15dp"
+        android:gravity="center"
+        android:hint="Enter your email address"
+        android:inputType="textEmailAddress"
+        android:textSize="18sp"
+         />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/button2"
+        android:drawablePadding="15dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:textSize="18sp" />
+        <Button
+            android:id="@+id/hide"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Hide"
+            android:textSize="10sp"/>
+    </LinearLayout>>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="100sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Sign Up" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Forget passwords?"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

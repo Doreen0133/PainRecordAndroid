@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home_fragment">
+
+    <fragment
+        android:id="@+id/nav_home_fragment"
+        android:name="com.example.fit5046ass3.Fragment.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/nav_data_entry"
+        android:name="com.example.fit5046ass3.Fragment.DataEntryFragment"
+        android:label="DataEntryFragment" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.fit5046ass3.Fragment.MapFragment"
+        android:label="MapFragment" />
+    <fragment
+        android:id="@+id/nav_pain_record"
+        android:name="com.example.fit5046ass3.Fragment.PainRecordFragment"
+        android:label="PainRecordFragment" />
+
+</navigation>

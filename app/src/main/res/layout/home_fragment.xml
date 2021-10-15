@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image1">
+
+    <TextView
+        android:id="@+id/brandname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pain Record"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/branddesc"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Record your pain level"
+        android:textSize="20sp"
+        android:layout_marginLeft="100dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Hi: "
+            android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/email1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="50dp"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/titleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Current date: "
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/currentdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/titleTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Current temperature: "
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/titleHumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Current humidity: "
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/humidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/titlePressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Current pressure: "
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>
